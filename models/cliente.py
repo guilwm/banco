@@ -1,7 +1,7 @@
 from datetime import date
 from utils.helper import str_para_date, date_para_str
 
-#classe cliente
+#classe cliente para testes
 
 class Cliente:
     contador = 101
