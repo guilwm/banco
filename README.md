@@ -15,16 +15,30 @@ sudo add-apt-repository ppa:deadsnakes/ppa
 
 sudo apt-get install python3.11
 
+	Alem disso, deve-se instalar o pip
+
+sudo apt-get install python3-pip
+
+	e também o git
+
+sudo apt-get install git-all
+
+	Após instalar o git, atualizar as credenciais com os comandos:
+
+git config --global user.name "FIRST_NAME LAST_NAME"
+git config --global user.email "MY_NAME@example.com"
+
+
 	Agora, a prioridade do python pode ser mudada com os seguintes comandos[2]:
 
-sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.11 1
-sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 2
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.11 1
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 2
 
 	para verificar a prioridade, usar:
 
-sudo update-alternatives -config python
+sudo update-alternatives --config python3
 
-	após usar o comando acima, escolher qual python será priorizado, usando o número dado. Um asterisco no início mostra qual python está priorizado. 
+	após usar o comando acima, escolher qual python será priorizado, usando o número dado. Um asterisco no início mostra qual python está priorizado.
 
 Aqui no caso, foi digitado 1 para escolher a versão 3.11
 
@@ -48,3 +62,11 @@ OBS: pode ser que o método acima não funcione (ao instalar o pendulum, pode da
 curl -sSL https://install.python-poetry.org | python3 -
 
 	Após a instalação, adicionar export PATH="/home/user/.local/bin:$PATH" ao arquivo bashrc que está oculto na pasta home e reiniciar o computador.
+
+Arquivo Makefile
+
+	Antes de criar um arquivo make, é necessário instalar o make. Isso pode ser feito com o comando abaixo:
+
+	sudo apt install -y make
+
+	Após a instalação, o arquivo makefile pode ser criado normalmente.
