@@ -28,6 +28,7 @@ sudo apt-get install git-all
 git config --global user.name "FIRST_NAME LAST_NAME"
 git config --global user.email "MY_NAME@example.com"
 
+Note que estes comandos configura seu git de forma global, para todos os projetos. 
 
 	Agora, a prioridade do python pode ser mudada com os seguintes comandos[2]:
 
