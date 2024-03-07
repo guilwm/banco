@@ -1,0 +1,13 @@
+{
+    "start_data": 1709769929,
+    "end_data": 1711497929,
+    "client": [
+        {
+        "name": "Maria",
+        "email": "maria.fraga@gmail.com",
+        "cpf": 1123456789,
+        "birthday": "06/06/1952",
+        "register_date": 1679875529
+    }
+]
+}
