@@ -8,6 +8,13 @@
         "cpf": 1123456789,
         "birthday": "06/06/1952",
         "register_date": 1679875529
-    }
+    },
+    {
+        "name": "Jose",
+        "email": "jose.fraga@gmail.com",
+        "cpf": 1123456780,
+        "birthday": "18/09/1948",
+        "register_date": 1679875529
+        }
 ]
 }
