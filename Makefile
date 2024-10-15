@@ -1,2 +1,2 @@
 run:
-	python3 banco/banco.py
+	python3 main.py
