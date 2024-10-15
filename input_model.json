@@ -15,6 +15,13 @@
         "cpf": 1123456780,
         "birthday": "18/09/1948",
         "register_date": 1679875529
+    },
+    {
+        "name": "Guilherme",
+        "email": "guilherme.fraga@gmail.com",
+        "cpf": 1123456781,
+        "birthday": "18/03/1983",
+        "register_date": 1679875529
     }
 ]
 }
