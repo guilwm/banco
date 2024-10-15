@@ -1,8 +1,8 @@
 from typing import List
 from time import sleep
 
-from models.cliente import Cliente
-from models.conta import Conta
+from banco.models.cliente import Cliente
+from banco.models.conta import Conta
 
 
 contas: List[Conta] = []
@@ -39,7 +39,7 @@ def menu():
         listar_contas()
     elif opcao == 6:
         print('Volte sempre!')
-        sleep(2)
+        sleep(1)
         exit(0)
     else:
         print('Opção inválida!')
@@ -157,5 +157,5 @@ def buscar_conta_por_numero(numero):
     return c
 
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()
