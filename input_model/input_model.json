@@ -1,0 +1,90 @@
+{
+    "start_date": 1709769929,
+    "end_date": 1711497929,
+    "client": [
+        {
+        "name": "Maria Oliveira",
+        "address": {
+            "street": "Pedra do Indaia",
+            "number": "174",
+            "neighborhood": "Candelária",
+            "city": "Belo Horizonte",
+            "State": "Minas Gerais",
+            "postal_code": "31510300"
+        },        
+        "contact": {
+            "phone": 31999998888,
+            "email": "maria.oliveira@gmail.com"
+        },
+        "cpf": 1123456789,
+        "documents": {
+            "idetity": "MG-11.000.999",
+            "passport": null,
+            "driver_license": null
+        },
+        "parent_name": {
+            "mother": "Nair Santos",
+            "father": null
+        },
+        "income_type": "Folha de Pagamento",
+        "birthday": "06/06/1952",
+        "register_date": 1679875529
+    },
+    {
+        "name": "Jose Moura",
+        "address": {
+            "street": "Vargem Bonita",
+            "number": "180",
+            "neighborhood": "Candelária",
+            "city": "Belo Horizonte",
+            "State": "Minas Gerais",
+            "postal_code": "31510200"
+        },
+        "contact":{
+            "phone": 31999887766,
+            "email": "jose.moura@gmail.com"
+        },       
+        "cpf": 1123456780,
+        "documents": {
+            "idetity": "MG-12.000.998",
+            "passport": null,
+            "driver_license": null
+        },
+        "parent_name": {
+            "mother": "Palmira Matos",
+            "father": null
+        },
+        "income_type": "IR/Renda sem Comprovação",
+        "birthday": "18/09/1948",
+        "register_date": 1679875529
+    },
+    {
+        "name": "Guilherme Macedo",
+        "address": {
+            "street": "Rosa Zandona",
+            "number": "170",
+            "neighborhood": "Candelária",
+            "city": "Belo Horizonte",
+            "State": "Minas Gerais",
+            "postal_code": "31510100"
+        },
+        "contact":{
+            "phone": 31999887744,
+            "email": "guilherme.macedo@gmail.com"
+        },
+        "cpf": 1123456781,
+        "documents": {
+            "idetity": "MG-12.000.997",
+            "passport": null,
+            "driver_license": 9863040
+        },
+        "parent_name": {
+            "mother": "Maria Oliveira",
+            "father": "Jose Moura"
+        },
+        "income_type": "Renda sem Comprovação",
+        "birthday": "18/03/1983",
+        "register_date": 1679875529
+    }
+]
+}
