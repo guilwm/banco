@@ -7,7 +7,7 @@ from banco.models.conta import Conta
 
 contas: List[Conta] = []
 
-def main():
+def main(input_data):
     menu()
 
 
