@@ -60,5 +60,3 @@ if __name__ == '__main__':
     input_data = read_input(input_path=input_path)
 
     main_menu(input_data=input_data)
-
-    a=1
