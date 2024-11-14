@@ -1,4 +1,6 @@
 from banco.banco import main
+from jsonschema import validate
+from banco.input_validation.input_schema import schema
 
 import json
 import os
@@ -58,5 +60,7 @@ if __name__ == '__main__':
 
     input_path = get_input_dir()
     input_data = read_input(input_path=input_path)
+
+    validate(instance=input_data, schema=schema)
 
     main_menu(input_data=input_data)
