@@ -9,6 +9,7 @@ packages = [{include = "banco"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 pendulum = "^2.1.2"
+jsonschema = "^4.23.0"
 
 
 [build-system]
