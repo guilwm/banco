@@ -18,7 +18,7 @@
         },
         "cpf": 1123456789,
         "documents": {
-            "idetity": "MG-11.000.999",
+            "identity": "MG-11.000.999",
             "passport": null,
             "driver_license": null
         },
@@ -29,8 +29,8 @@
         "income_type": "Folha de Pagamento",
         "birthday": "06/06/1952",
         "register_date": 1679875529
-    },
-    {
+        },
+        {
         "name": "Jose Moura",
         "address": {
             "street": "Vargem Bonita",
@@ -46,7 +46,7 @@
         },       
         "cpf": 1123456780,
         "documents": {
-            "idetity": "MG-12.000.998",
+            "identity": "MG-12.000.998",
             "passport": null,
             "driver_license": null
         },
@@ -57,8 +57,8 @@
         "income_type": "IR/Renda sem Comprovação",
         "birthday": "18/09/1948",
         "register_date": 1679875529
-    },
-    {
+        },
+        {
         "name": "Guilherme Macedo",
         "address": {
             "street": "Rosa Zandona",
@@ -74,9 +74,9 @@
         },
         "cpf": 1123456781,
         "documents": {
-            "idetity": "MG-12.000.997",
+            "identity": "MG-12.000.997",
             "passport": null,
-            "driver_license": 9863040
+            "driver_license": "9863040"
         },
         "parent_name": {
             "mother": "Maria Oliveira",
@@ -85,6 +85,6 @@
         "income_type": "Renda sem Comprovação",
         "birthday": "18/03/1983",
         "register_date": 1679875529
-    }
-]
+        }
+    ]
 }

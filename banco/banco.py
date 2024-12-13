@@ -39,7 +39,7 @@ def menu():
         listar_contas()
     elif opcao == 6:
         print('Volte sempre!')
-        sleep(1)
+        sleep(0.5)
         exit(0)
     else:
         print('Opção inválida!')
