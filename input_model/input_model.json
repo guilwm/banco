@@ -85,6 +85,34 @@
         "income_type": "Renda sem Comprovação",
         "birthday": "18/03/1983",
         "register_date": 1679875529
-        }
+        },
+        {
+            "name": "Marcio Costa",
+            "address": {
+                "street": "Rosa Zandona",
+                "number": "171",
+                "neighborhood": "Candelária",
+                "city": "Belo Horizonte",
+                "State": "Minas Gerais",
+                "postal_code": "31510100"
+            },
+            "contact":{
+                "phone": 31999887743,
+                "email": "marcio.costa@gmail.com"
+            },
+            "cpf": 1123456781,
+            "documents": {
+                "identity": "MG-12.000.991",
+                "passport": null,
+                "driver_license": "9863041"
+            },
+            "parent_name": {
+                "mother": "Sonia Costa",
+                "father": "Jose Costa"
+            },
+            "income_type": "Renda sem Comprovação",
+            "birthday": "19/03/1983",
+            "register_date": 1679875529
+            }
     ]
 }
