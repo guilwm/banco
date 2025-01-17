@@ -7,8 +7,8 @@ readme = "README.md"
 packages = [{include = "banco"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
-pendulum = "^2.1.2"
+python = "^3.12"
+pendulum = "^3.0.0"
 jsonschema = "^4.23.0"
 
 
