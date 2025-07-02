@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  app:
+    # Constrói a imagem a partir do Dockerfile no diretório atual (.)
+    build: .
+    # Nome da imagem que será criada após o build
+    image: banco-app
+    # Nome do container para facilitar a identificação
+    container_name: banco_container
+    # As flags -it (stdin_open, tty) são necessárias
+    # para que o menu interativo da aplicação funcione corretamente.
+    stdin_open: true # Equivale a -i no comando docker run
+    tty: true        # Equivale a -t no comando docker run
+
